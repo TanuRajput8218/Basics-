@@ -1,0 +1,18 @@
+import java.util.*;
+public class classroom {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            int days = sc.nextInt();
+            int year = days/365;
+            
+int remainingdaysafteryear = days / 365;
+
+int months = remainingdaysafteryear/30;
+int remainingdays = remainingdaysafteryear%30;
+            System.out.println(year);
+            System.out.println(months);
+            System.out.println(remainingdays);
+
+        }
+    }
+
