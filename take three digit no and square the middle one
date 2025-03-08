@@ -1,0 +1,16 @@
+import java.util.*;
+public class classroom {
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            int num = sc.nextInt();
+            if (num < 100 || num > 999) {
+                System.out.println("enter a valid no");
+            } else {
+                int middledigit = (num / 10) % 10;
+                int square = middledigit * middledigit;
+
+                System.out.println("square of the digit is : " + square);
+
+            }
+        }
+    }
