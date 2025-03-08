@@ -1,0 +1,11 @@
+import java.util.*;
+public class classroom {
+
+        public static void main(String[] args) {
+            Scanner sc = new Scanner(System.in);
+            float rad = sc.nextFloat();
+
+            System.out.println("Area of circle " + (3.14*rad*rad));
+            System.out.println("circumference of circle " +(2*3.14*rad));
+        }
+    }
